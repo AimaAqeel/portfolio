@@ -12,9 +12,7 @@
 <div class="cursor" id="cursor"></div>
 <div class="cursor-dot" id="cursorDot"></div>
 
-<!-- ============================================================
-     MODAL POPUP
-============================================================ -->
+<!-- MODAL -->
 <div class="modal-backdrop" id="modalBackdrop">
   <div class="modal" id="modal" role="dialog" aria-modal="true">
     <button class="modal-close" id="modalClose" aria-label="Close">&#x2715;</button>
@@ -39,9 +37,7 @@
   </div>
 </div>
 
-<!-- ============================================================
-     NAVIGATION
-============================================================ -->
+<!-- NAV -->
 <nav class="nav" id="nav">
   <a href="#home" class="nav-brand">Aima Aqeel</a>
   <ul class="nav-links">
@@ -51,9 +47,7 @@
     <li><a href="#about"   class="nav-link">About</a></li>
     <li><a href="#contact" class="nav-link">Contact</a></li>
   </ul>
-  <button class="burger" id="burger" aria-label="Toggle menu">
-    <span></span><span></span>
-  </button>
+  <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span></button>
 </nav>
 
 <div class="mob-menu" id="mobMenu">
@@ -66,35 +60,22 @@
   </ul>
 </div>
 
-<!-- ============================================================
-     HERO
-============================================================ -->
+<!-- HERO -->
 <section class="hero" id="home">
   <div class="hero-bg-word" aria-hidden="true">CREATE</div>
   <div class="hero-inner">
-
-    <!-- Left: text -->
     <div class="hero-text">
-      <div class="hero-intro">
-        <span class="intro-line"></span>
-        <span class="intro-text">Hello, I am</span>
-      </div>
+      <div class="hero-intro"><span class="intro-line"></span><span class="intro-text">Hello, I am</span></div>
       <h1 class="hero-heading">
         <span class="h-line"><span class="h-inner r1">Aima</span></span>
         <span class="h-line italic"><span class="h-inner r2">Aqeel</span></span>
       </h1>
-      <p class="hero-role">
-        <span class="h-line sm">
-          <span class="h-inner r3">Android Developer &amp; UI/UX Designer</span>
-        </span>
-      </p>
+      <p class="hero-role"><span class="h-line sm"><span class="h-inner r3">Android Developer &amp; UI/UX Designer</span></span></p>
       <div class="hero-btns">
         <a href="#works"   class="btn-main">View My Work</a>
         <a href="#contact" class="btn-outline">Say Hello</a>
       </div>
     </div>
-
-    <!-- Right: photo -->
     <div class="hero-photo-wrap">
       <div class="hero-photo-ring"></div>
       <div class="hero-photo-box">
@@ -106,17 +87,11 @@
       <div class="hero-tag tag-figma">Figma &#x2756;</div>
       <div class="hero-tag tag-android">Android &#x2756;</div>
     </div>
-
   </div>
-  <div class="hero-scroll-hint">
-    <div class="scroll-track"><div class="scroll-thumb"></div></div>
-    <span>Scroll</span>
-  </div>
+  <div class="hero-scroll-hint"><div class="scroll-track"><div class="scroll-thumb"></div></div><span>Scroll</span></div>
 </section>
 
-<!-- ============================================================
-     WORKS
-============================================================ -->
+<!-- WORKS -->
 <section class="works" id="works">
   <div class="works-top">
     <span class="eyebrow">Portfolio</span>
@@ -124,274 +99,122 @@
   </div>
   <div class="proj-grid">
 
-    <!-- 1. Bookshop App -->
     <article class="proj-card reveal" data-project="bookshop">
       <div class="proj-card-link">
         <div class="proj-thumb">
           <img class="proj-img" src="bookshop-screenshot.png" alt="Bookshop App"/>
           <div class="proj-overlay"><span class="proj-view-btn">View Details &#x2197;</span></div>
         </div>
-        <div class="proj-info">
-          <span class="proj-type">MOBILE APPLICATION &middot; KOTLIN</span>
-          <h3 class="proj-name">Bookshop App</h3>
-        </div>
+        <div class="proj-info"><span class="proj-type">MOBILE APPLICATION &middot; KOTLIN</span><h3 class="proj-name">Bookshop App</h3></div>
       </div>
     </article>
 
-    <!-- 2. FoodHunger Website -->
     <article class="proj-card reveal" data-project="foodhunger">
       <div class="proj-card-link">
         <div class="proj-thumb">
           <img class="proj-img" src="foodhunger-screenshot.png" alt="FoodHunger Website"/>
           <div class="proj-overlay"><span class="proj-view-btn">View Details &#x2197;</span></div>
         </div>
-        <div class="proj-info">
-          <span class="proj-type">WEB APPLICATION &middot; HTML / CSS / JS</span>
-          <h3 class="proj-name">FoodHunger Website</h3>
-        </div>
+        <div class="proj-info"><span class="proj-type">WEB APPLICATION &middot; HTML / CSS / JS</span><h3 class="proj-name">FoodHunger Website</h3></div>
       </div>
     </article>
 
-    <!-- 3. Pet Nutrition Calculator -->
     <article class="proj-card reveal" data-project="pet">
       <div class="proj-card-link">
         <div class="proj-thumb">
-          <img class="proj-img"
-               src="https://img.youtube.com/vi/DQYK8q7UA7o/maxresdefault.jpg"
-               alt="Pet Nutrition Calculator"
-               onerror="this.src='https://img.youtube.com/vi/DQYK8q7UA7o/hqdefault.jpg'"/>
+          <img class="proj-img" src="https://img.youtube.com/vi/DQYK8q7UA7o/maxresdefault.jpg" alt="Pet Nutrition" onerror="this.src='https://img.youtube.com/vi/DQYK8q7UA7o/hqdefault.jpg'"/>
           <div class="proj-overlay"><span class="proj-view-btn">View Details &#x2197;</span></div>
           <div class="yt-badge">&#x25B6; YouTube</div>
         </div>
-        <div class="proj-info">
-          <span class="proj-type">MOBILE APPLICATION &middot; KOTLIN</span>
-          <h3 class="proj-name">Pet Nutrition &amp; Cost Calculator</h3>
-        </div>
+        <div class="proj-info"><span class="proj-type">MOBILE APPLICATION &middot; KOTLIN</span><h3 class="proj-name">Pet Nutrition &amp; Cost Calculator</h3></div>
       </div>
     </article>
 
-    <!-- 4. Bakery App UI/UX -->
     <article class="proj-card reveal" data-project="bakery">
       <div class="proj-card-link">
         <div class="proj-thumb">
-          <img class="proj-img"
-               src="https://www.figma.com/file/60KEVhn0dMvUmaY8HEvsYu/thumbnail"
-               alt="Bakery App"
-               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
-          <!-- Fallback CSS art -->
+          <img class="proj-img" src="https://www.figma.com/file/60KEVhn0dMvUmaY8HEvsYu/thumbnail" alt="Bakery App" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
           <div class="thumb-art art-bakery" style="display:none">
-            <div class="phone-frame">
-              <div class="phone-notch"></div>
-              <div class="phone-screen ps-cream">
-                <div class="bk-hero-band">
-                  <div class="bk-cake">
-                    <div class="bk-tier" style="--tw:50px;--th:10px;--tc:#f9a8d4;"></div>
-                    <div class="bk-tier" style="--tw:38px;--th:12px;--tc:#fda4af;"></div>
-                    <div class="bk-tier" style="--tw:24px;--th:14px;--tc:#fb7185;"></div>
-                    <div class="bk-candle"></div>
-                    <div class="bk-flame"></div>
-                  </div>
-                </div>
-                <div class="bk-products-row">
-                  <div class="bk-prod-card" style="--pcc:#fde8f0;"></div>
-                  <div class="bk-prod-card" style="--pcc:#fef3c7;"></div>
-                  <div class="bk-prod-card" style="--pcc:#d1fae5;"></div>
-                </div>
-              </div>
-            </div>
+            <div class="phone-frame"><div class="phone-notch"></div><div class="phone-screen ps-cream">
+              <div class="bk-hero-band"><div class="bk-cake"><div class="bk-tier" style="--tw:50px;--th:10px;--tc:#f9a8d4;"></div><div class="bk-tier" style="--tw:38px;--th:12px;--tc:#fda4af;"></div><div class="bk-tier" style="--tw:24px;--th:14px;--tc:#fb7185;"></div><div class="bk-candle"></div><div class="bk-flame"></div></div></div>
+              <div class="bk-products-row"><div class="bk-prod-card" style="--pcc:#fde8f0;"></div><div class="bk-prod-card" style="--pcc:#fef3c7;"></div><div class="bk-prod-card" style="--pcc:#d1fae5;"></div></div>
+            </div></div>
           </div>
           <div class="proj-overlay"><span class="proj-view-btn">View Details &#x2197;</span></div>
-          <div class="figma-badge">
-            <svg width="9" height="13" viewBox="0 0 38 57" fill="none">
-              <path d="M19 28.5C19 23.25 23.25 19 28.5 19C33.75 19 38 23.25 38 28.5C38 33.75 33.75 38 28.5 38C23.25 38 19 33.75 19 28.5Z" fill="#1ABCFE"/>
-              <path d="M0 47.5C0 42.25 4.25 38 9.5 38H19V47.5C19 52.75 14.75 57 9.5 57C4.25 57 0 52.75 0 47.5Z" fill="#0ACF83"/>
-              <path d="M19 0V19H28.5C33.75 19 38 14.75 38 9.5C38 4.25 33.75 0 28.5 0H19Z" fill="#FF7262"/>
-              <path d="M0 9.5C0 14.75 4.25 19 9.5 19H19V0H9.5C4.25 0 0 4.25 0 9.5Z" fill="#F24E1E"/>
-              <path d="M0 28.5C0 33.75 4.25 38 9.5 38H19V19H9.5C4.25 19 0 23.25 0 28.5Z" fill="#FF7262"/>
-            </svg>
-            Figma Prototype
-          </div>
+          <div class="figma-badge"><svg width="9" height="13" viewBox="0 0 38 57" fill="none"><path d="M19 28.5C19 23.25 23.25 19 28.5 19C33.75 19 38 23.25 38 28.5C38 33.75 33.75 38 28.5 38C23.25 38 19 33.75 19 28.5Z" fill="#1ABCFE"/><path d="M0 47.5C0 42.25 4.25 38 9.5 38H19V47.5C19 52.75 14.75 57 9.5 57C4.25 57 0 52.75 0 47.5Z" fill="#0ACF83"/><path d="M19 0V19H28.5C33.75 19 38 14.75 38 9.5C38 4.25 33.75 0 28.5 0H19Z" fill="#FF7262"/><path d="M0 9.5C0 14.75 4.25 19 9.5 19H19V0H9.5C4.25 0 0 4.25 0 9.5Z" fill="#F24E1E"/><path d="M0 28.5C0 33.75 4.25 38 9.5 38H19V19H9.5C4.25 19 0 23.25 0 28.5Z" fill="#FF7262"/></svg>Figma Prototype</div>
         </div>
-        <div class="proj-info">
-          <span class="proj-type">UI/UX DESIGN &middot; FIGMA</span>
-          <h3 class="proj-name">Bakery App UI/UX</h3>
-        </div>
+        <div class="proj-info"><span class="proj-type">UI/UX DESIGN &middot; FIGMA</span><h3 class="proj-name">Bakery App UI/UX</h3></div>
       </div>
     </article>
 
-    <!-- 5. La Joie Website -->
     <article class="proj-card reveal" data-project="lajoie">
       <div class="proj-card-link">
         <div class="proj-thumb">
-          <img class="proj-img"
-               src="https://img.youtube.com/vi/Q7xoNdQkMT8/maxresdefault.jpg"
-               alt="La Joie Website"
-               onerror="this.src='https://img.youtube.com/vi/Q7xoNdQkMT8/hqdefault.jpg'"/>
+          <img class="proj-img" src="https://img.youtube.com/vi/Q7xoNdQkMT8/maxresdefault.jpg" alt="La Joie" onerror="this.src='https://img.youtube.com/vi/Q7xoNdQkMT8/hqdefault.jpg'"/>
           <div class="proj-overlay"><span class="proj-view-btn">View Details &#x2197;</span></div>
           <div class="yt-badge">&#x25B6; YouTube</div>
         </div>
-        <div class="proj-info">
-          <span class="proj-type">WEB APPLICATION &middot; GROUP PROJECT</span>
-          <h3 class="proj-name">La Joie Website</h3>
-        </div>
+        <div class="proj-info"><span class="proj-type">WEB APPLICATION &middot; GROUP PROJECT</span><h3 class="proj-name">La Joie Website</h3></div>
       </div>
     </article>
 
-    <!-- 6. Ideation & UX Designs (Sway) -->
     <article class="proj-card reveal" data-project="sway">
       <div class="proj-card-link">
         <div class="proj-thumb">
           <img class="proj-img" src="sway-project.png" alt="Ideation and UX Designs"/>
           <div class="proj-overlay"><span class="proj-view-btn">View Details &#x2197;</span></div>
-          <div class="ms-badge">
-            <svg width="12" height="12" viewBox="0 0 23 23" fill="none">
-              <rect x="1"  y="1"  width="10" height="10" fill="#F25022"/>
-              <rect x="12" y="1"  width="10" height="10" fill="#7FBA00"/>
-              <rect x="1"  y="12" width="10" height="10" fill="#00A4EF"/>
-              <rect x="12" y="12" width="10" height="10" fill="#FFB900"/>
-            </svg>
-            Microsoft Sway
-          </div>
+          <div class="ms-badge"><svg width="12" height="12" viewBox="0 0 23 23" fill="none"><rect x="1" y="1" width="10" height="10" fill="#F25022"/><rect x="12" y="1" width="10" height="10" fill="#7FBA00"/><rect x="1" y="12" width="10" height="10" fill="#00A4EF"/><rect x="12" y="12" width="10" height="10" fill="#FFB900"/></svg>Microsoft Sway</div>
         </div>
-        <div class="proj-info">
-          <span class="proj-type">IDEATION &amp; UX &middot; MICROSOFT SWAY</span>
-          <h3 class="proj-name">Ideation &amp; UX Designs</h3>
-        </div>
+        <div class="proj-info"><span class="proj-type">IDEATION &amp; UX &middot; MICROSOFT SWAY</span><h3 class="proj-name">Ideation &amp; UX Designs</h3></div>
       </div>
     </article>
 
-    <!-- 7. Website UI/UX Design I -->
     <article class="proj-card reveal" data-project="uiux1">
       <div class="proj-card-link">
         <div class="proj-thumb">
-          <img class="proj-img"
-               src="https://www.figma.com/file/XUouCz8Xrfmj3XmcEpL60f/thumbnail"
-               alt="UI/UX Design I"
-               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <img class="proj-img" src="https://www.figma.com/file/XUouCz8Xrfmj3XmcEpL60f/thumbnail" alt="UI/UX I" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
           <div class="thumb-art art-figma1" style="display:none">
-            <div class="browser-frame">
-              <div class="browser-bar">
-                <div class="br-dot" style="--dc:#f87171;"></div>
-                <div class="br-dot" style="--dc:#fbbf24;"></div>
-                <div class="br-dot" style="--dc:#6ee7b7;"></div>
-                <div class="br-url">figma.com</div>
-              </div>
-              <div class="browser-screen bs-f1">
-                <div class="f1-nav"><div class="f1-logo"></div><div class="f1-nav-items"><div></div><div></div><div></div></div><div class="f1-nav-cta"></div></div>
-                <div class="f1-hero">
-                  <div class="f1-hero-left"><div class="f1-tag"></div><div class="f1-h1"></div><div class="f1-h1 s"></div><div class="f1-sub"></div><div class="f1-btns"><div class="f1-btn pri"></div><div class="f1-btn out"></div></div></div>
-                  <div class="f1-hero-right"><div class="f1-card-stack"><div class="f1-card c1"></div><div class="f1-card c2"></div><div class="f1-card c3"></div></div></div>
-                </div>
-              </div>
-            </div>
+            <div class="browser-frame"><div class="browser-bar"><div class="br-dot" style="--dc:#f87171;"></div><div class="br-dot" style="--dc:#fbbf24;"></div><div class="br-dot" style="--dc:#6ee7b7;"></div><div class="br-url">figma.com</div></div><div class="browser-screen bs-f1"><div class="f1-nav"><div class="f1-logo"></div><div class="f1-nav-items"><div></div><div></div><div></div></div><div class="f1-nav-cta"></div></div><div class="f1-hero"><div class="f1-hero-left"><div class="f1-tag"></div><div class="f1-h1"></div><div class="f1-h1 s"></div><div class="f1-btns"><div class="f1-btn pri"></div><div class="f1-btn out"></div></div></div><div class="f1-hero-right"><div class="f1-card-stack"><div class="f1-card c1"></div><div class="f1-card c2"></div><div class="f1-card c3"></div></div></div></div></div></div>
           </div>
           <div class="proj-overlay"><span class="proj-view-btn">View Details &#x2197;</span></div>
-          <div class="figma-badge">
-            <svg width="9" height="13" viewBox="0 0 38 57" fill="none">
-              <path d="M19 28.5C19 23.25 23.25 19 28.5 19C33.75 19 38 23.25 38 28.5C38 33.75 33.75 38 28.5 38C23.25 38 19 33.75 19 28.5Z" fill="#1ABCFE"/>
-              <path d="M0 47.5C0 42.25 4.25 38 9.5 38H19V47.5C19 52.75 14.75 57 9.5 57C4.25 57 0 52.75 0 47.5Z" fill="#0ACF83"/>
-              <path d="M19 0V19H28.5C33.75 19 38 14.75 38 9.5C38 4.25 33.75 0 28.5 0H19Z" fill="#FF7262"/>
-              <path d="M0 9.5C0 14.75 4.25 19 9.5 19H19V0H9.5C4.25 0 0 4.25 0 9.5Z" fill="#F24E1E"/>
-              <path d="M0 28.5C0 33.75 4.25 38 9.5 38H19V19H9.5C4.25 19 0 23.25 0 28.5Z" fill="#FF7262"/>
-            </svg>
-            Figma Design
-          </div>
+          <div class="figma-badge"><svg width="9" height="13" viewBox="0 0 38 57" fill="none"><path d="M19 28.5C19 23.25 23.25 19 28.5 19C33.75 19 38 23.25 38 28.5C38 33.75 33.75 38 28.5 38C23.25 38 19 33.75 19 28.5Z" fill="#1ABCFE"/><path d="M0 47.5C0 42.25 4.25 38 9.5 38H19V47.5C19 52.75 14.75 57 9.5 57C4.25 57 0 52.75 0 47.5Z" fill="#0ACF83"/><path d="M19 0V19H28.5C33.75 19 38 14.75 38 9.5C38 4.25 33.75 0 28.5 0H19Z" fill="#FF7262"/><path d="M0 9.5C0 14.75 4.25 19 9.5 19H19V0H9.5C4.25 0 0 4.25 0 9.5Z" fill="#F24E1E"/><path d="M0 28.5C0 33.75 4.25 38 9.5 38H19V19H9.5C4.25 19 0 23.25 0 28.5Z" fill="#FF7262"/></svg>Figma Design</div>
         </div>
-        <div class="proj-info">
-          <span class="proj-type">UI/UX DESIGN &middot; FIGMA</span>
-          <h3 class="proj-name">Website UI/UX Design I</h3>
-        </div>
+        <div class="proj-info"><span class="proj-type">UI/UX DESIGN &middot; FIGMA</span><h3 class="proj-name">Website UI/UX Design I</h3></div>
       </div>
     </article>
 
-    <!-- 8. Website UI/UX Design II -->
     <article class="proj-card reveal" data-project="uiux2">
       <div class="proj-card-link">
         <div class="proj-thumb">
-          <img class="proj-img"
-               src="https://www.figma.com/file/L31NDWnINS4HdhySivVw7b/thumbnail"
-               alt="UI/UX Design II"
-               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <img class="proj-img" src="https://www.figma.com/file/L31NDWnINS4HdhySivVw7b/thumbnail" alt="UI/UX II" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
           <div class="thumb-art art-figma2" style="display:none">
-            <div class="browser-frame">
-              <div class="browser-bar">
-                <div class="br-dot" style="--dc:#f87171;"></div>
-                <div class="br-dot" style="--dc:#fbbf24;"></div>
-                <div class="br-dot" style="--dc:#6ee7b7;"></div>
-                <div class="br-url">figma.com</div>
-              </div>
-              <div class="browser-screen bs-f2">
-                <div class="f2-split">
-                  <div class="f2-left"><div class="f2-eyebrow"></div><div class="f2-big-title"></div><div class="f2-big-title s"></div><div class="f2-cta-row"><div class="f2-cta"></div><div class="f2-cta sec"></div></div></div>
-                  <div class="f2-right"><div class="f2-img-block"><div class="f2-img-gradient"></div></div></div>
-                </div>
-              </div>
-            </div>
+            <div class="browser-frame"><div class="browser-bar"><div class="br-dot" style="--dc:#f87171;"></div><div class="br-dot" style="--dc:#fbbf24;"></div><div class="br-dot" style="--dc:#6ee7b7;"></div><div class="br-url">figma.com</div></div><div class="browser-screen bs-f2"><div class="f2-split"><div class="f2-left"><div class="f2-eyebrow"></div><div class="f2-big-title"></div><div class="f2-big-title s"></div><div class="f2-cta-row"><div class="f2-cta"></div><div class="f2-cta sec"></div></div></div><div class="f2-right"><div class="f2-img-block"><div class="f2-img-gradient"></div></div></div></div></div></div>
           </div>
           <div class="proj-overlay"><span class="proj-view-btn">View Details &#x2197;</span></div>
-          <div class="figma-badge">
-            <svg width="9" height="13" viewBox="0 0 38 57" fill="none">
-              <path d="M19 28.5C19 23.25 23.25 19 28.5 19C33.75 19 38 23.25 38 28.5C38 33.75 33.75 38 28.5 38C23.25 38 19 33.75 19 28.5Z" fill="#1ABCFE"/>
-              <path d="M0 47.5C0 42.25 4.25 38 9.5 38H19V47.5C19 52.75 14.75 57 9.5 57C4.25 57 0 52.75 0 47.5Z" fill="#0ACF83"/>
-              <path d="M19 0V19H28.5C33.75 19 38 14.75 38 9.5C38 4.25 33.75 0 28.5 0H19Z" fill="#FF7262"/>
-              <path d="M0 9.5C0 14.75 4.25 19 9.5 19H19V0H9.5C4.25 0 0 4.25 0 9.5Z" fill="#F24E1E"/>
-              <path d="M0 28.5C0 33.75 4.25 38 9.5 38H19V19H9.5C4.25 19 0 23.25 0 28.5Z" fill="#FF7262"/>
-            </svg>
-            Figma Design
-          </div>
+          <div class="figma-badge"><svg width="9" height="13" viewBox="0 0 38 57" fill="none"><path d="M19 28.5C19 23.25 23.25 19 28.5 19C33.75 19 38 23.25 38 28.5C38 33.75 33.75 38 28.5 38C23.25 38 19 33.75 19 28.5Z" fill="#1ABCFE"/><path d="M0 47.5C0 42.25 4.25 38 9.5 38H19V47.5C19 52.75 14.75 57 9.5 57C4.25 57 0 52.75 0 47.5Z" fill="#0ACF83"/><path d="M19 0V19H28.5C33.75 19 38 14.75 38 9.5C38 4.25 33.75 0 28.5 0H19Z" fill="#FF7262"/><path d="M0 9.5C0 14.75 4.25 19 9.5 19H19V0H9.5C4.25 0 0 4.25 0 9.5Z" fill="#F24E1E"/><path d="M0 28.5C0 33.75 4.25 38 9.5 38H19V19H9.5C4.25 19 0 23.25 0 28.5Z" fill="#FF7262"/></svg>Figma Design</div>
         </div>
-        <div class="proj-info">
-          <span class="proj-type">UI/UX DESIGN &middot; FIGMA</span>
-          <h3 class="proj-name">Website UI/UX Design II</h3>
-        </div>
+        <div class="proj-info"><span class="proj-type">UI/UX DESIGN &middot; FIGMA</span><h3 class="proj-name">Website UI/UX Design II</h3></div>
       </div>
     </article>
 
-    <!-- 9. Data Analysis (Flourish) -->
     <article class="proj-card reveal" data-project="flourish">
       <div class="proj-card-link">
         <div class="proj-thumb">
-          <img class="proj-img"
-               src="https://public.flourish.studio/story/3135825/thumbnail"
-               alt="Data Analysis"
-               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <img class="proj-img" src="https://public.flourish.studio/story/3135825/thumbnail" alt="Data Analysis" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
           <div class="thumb-art art-flourish" style="display:none">
-            <div class="browser-frame">
-              <div class="browser-bar">
-                <div class="br-dot" style="--dc:#f87171;"></div>
-                <div class="br-dot" style="--dc:#fbbf24;"></div>
-                <div class="br-dot" style="--dc:#6ee7b7;"></div>
-                <div class="br-url">flourish.studio</div>
-              </div>
-              <div class="browser-screen bs-flourish">
-                <div class="fl-chart">
-                  <div class="fl-bars">
-                    <div class="fl-bar" style="--bh:60%;--bc:#a78bfa;"></div>
-                    <div class="fl-bar" style="--bh:85%;--bc:#60a5fa;"></div>
-                    <div class="fl-bar" style="--bh:45%;--bc:#6ee7b7;"></div>
-                    <div class="fl-bar" style="--bh:72%;--bc:#fbbf24;"></div>
-                    <div class="fl-bar" style="--bh:95%;--bc:#f87171;"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <div class="browser-frame"><div class="browser-bar"><div class="br-dot" style="--dc:#f87171;"></div><div class="br-dot" style="--dc:#fbbf24;"></div><div class="br-dot" style="--dc:#6ee7b7;"></div><div class="br-url">flourish.studio</div></div><div class="browser-screen bs-flourish"><div class="fl-chart"><div class="fl-bars"><div class="fl-bar" style="--bh:60%;--bc:#a78bfa;"></div><div class="fl-bar" style="--bh:85%;--bc:#60a5fa;"></div><div class="fl-bar" style="--bh:45%;--bc:#6ee7b7;"></div><div class="fl-bar" style="--bh:72%;--bc:#fbbf24;"></div><div class="fl-bar" style="--bh:95%;--bc:#f87171;"></div></div></div></div></div>
           </div>
           <div class="proj-overlay"><span class="proj-view-btn">View Details &#x2197;</span></div>
           <div class="flourish-badge">&#x1F4CA; Flourish</div>
         </div>
-        <div class="proj-info">
-          <span class="proj-type">DATA VISUALISATION &middot; FLOURISH</span>
-          <h3 class="proj-name">Data Analysis Story</h3>
-        </div>
+        <div class="proj-info"><span class="proj-type">DATA VISUALISATION &middot; FLOURISH</span><h3 class="proj-name">Data Analysis Story</h3></div>
       </div>
     </article>
 
-  </div><!-- /proj-grid -->
+  </div>
 </section>
 
-<!-- ============================================================
-     CANVA DESIGNS — 3 cards with real images
-============================================================ -->
+<!-- CANVA DESIGNS -->
 <section class="canva-section" id="canva">
   <div class="works-top">
     <span class="eyebrow">Graphic Design</span>
@@ -399,55 +222,19 @@
     <p class="sec-sub">Circles, geometric patterns, and typographic layouts created in Canva.</p>
   </div>
   <div class="canva-grid-3">
-
-    <!-- Canva 1: Bubbles -->
     <article class="canva-card reveal" data-project="canva_bubbles">
-      <div class="canva-link">
-        <div class="canva-thumb">
-          <img class="canva-real-img" src="canva-bubbles.png" alt="Bubbles Design"/>
-          <div class="canva-overlay"><span class="canva-view-btn">View Details &#x2197;</span></div>
-        </div>
-        <div class="canva-info">
-          <span class="canva-badge">&#x25CF; Canva Design</span>
-          <h3 class="canva-name">Bubbles Design</h3>
-        </div>
-      </div>
+      <div class="canva-link"><div class="canva-thumb"><img class="canva-real-img" src="canva-bubbles.png" alt="Bubbles Design"/><div class="canva-overlay"><span class="canva-view-btn">View Details &#x2197;</span></div></div><div class="canva-info"><span class="canva-badge">&#x25CF; Canva Design</span><h3 class="canva-name">Bubbles Design</h3></div></div>
     </article>
-
-    <!-- Canva 2: Squares -->
     <article class="canva-card reveal" data-project="canva_squares">
-      <div class="canva-link">
-        <div class="canva-thumb">
-          <img class="canva-real-img" src="canva-squares.png" alt="Square Blocks Design"/>
-          <div class="canva-overlay"><span class="canva-view-btn">View Details &#x2197;</span></div>
-        </div>
-        <div class="canva-info">
-          <span class="canva-badge">&#x25CF; Canva Design</span>
-          <h3 class="canva-name">Square Blocks Design</h3>
-        </div>
-      </div>
+      <div class="canva-link"><div class="canva-thumb"><img class="canva-real-img" src="canva-squares.png" alt="Square Blocks"/><div class="canva-overlay"><span class="canva-view-btn">View Details &#x2197;</span></div></div><div class="canva-info"><span class="canva-badge">&#x25CF; Canva Design</span><h3 class="canva-name">Square Blocks Design</h3></div></div>
     </article>
-
-    <!-- Canva 3: Lines -->
     <article class="canva-card reveal" data-project="canva_lines">
-      <div class="canva-link">
-        <div class="canva-thumb">
-          <img class="canva-real-img" src="canva-lines.png" alt="Lines Pattern Design"/>
-          <div class="canva-overlay"><span class="canva-view-btn">View Details &#x2197;</span></div>
-        </div>
-        <div class="canva-info">
-          <span class="canva-badge">&#x25CF; Canva Design</span>
-          <h3 class="canva-name">Lines Pattern Design</h3>
-        </div>
-      </div>
+      <div class="canva-link"><div class="canva-thumb"><img class="canva-real-img" src="canva-lines.png" alt="Lines Pattern"/><div class="canva-overlay"><span class="canva-view-btn">View Details &#x2197;</span></div></div><div class="canva-info"><span class="canva-badge">&#x25CF; Canva Design</span><h3 class="canva-name">Lines Pattern Design</h3></div></div>
     </article>
-
   </div>
 </section>
 
-<!-- ============================================================
-     MARQUEE
-============================================================ -->
+<!-- MARQUEE -->
 <div class="marquee-wrap" aria-hidden="true">
   <div class="marquee-track">
     <span>Simplicity &nbsp;&middot;&nbsp; Usability &nbsp;&middot;&nbsp; Aesthetics &nbsp;&middot;&nbsp; Android &nbsp;&middot;&nbsp; UI/UX &nbsp;&middot;&nbsp; Kotlin &nbsp;&middot;&nbsp; Figma &nbsp;&middot;&nbsp; Canva &nbsp;&middot;&nbsp; Sway &nbsp;&middot;&nbsp; Data &nbsp;&middot;&nbsp; Design &nbsp;&middot;&nbsp; Web Dev &nbsp;&middot;&nbsp;</span>
@@ -455,496 +242,428 @@
   </div>
 </div>
 
-<!-- ============================================================
-     ABOUT
-============================================================ -->
+<!-- ABOUT -->
 <section class="about" id="about">
   <div class="about-wrap">
     <div class="about-left">
       <div class="avatar-wrap">
         <div class="avatar-ring"></div>
-        <div class="avatar-box">AA</div>
+        <div class="avatar-box">
+          <img src="profile.jpg" alt="Aima Aqeel" class="about-avatar-img"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <div class="about-avatar-fallback">AA</div>
+        </div>
       </div>
+      <!-- SKILL TAGS BELOW PHOTO -->
       <div class="about-skill-tags">
-        <span class="stag">Kotlin</span>
-        <span class="stag">Android Studio</span>
-        <span class="stag">Figma</span>
-        <span class="stag">UI/UX Design</span>
-        <span class="stag">HTML &amp; CSS</span>
-        <span class="stag">JavaScript</span>
-        <span class="stag">Node.js</span>
-        <span class="stag">MongoDB</span>
-        <span class="stag">Canva</span>
-        <span class="stag">Microsoft Sway</span>
-        <span class="stag">GitHub</span>
-        <span class="stag">Flourish</span>
+        <span class="about-skill-tag">Kotlin</span>
+        <span class="about-skill-tag">Android Studio</span>
+        <span class="about-skill-tag">Figma</span>
+        <span class="about-skill-tag">UI/UX Design</span>
+        <span class="about-skill-tag">HTML &amp; CSS</span>
+        <span class="about-skill-tag">JavaScript</span>
+        <span class="about-skill-tag">Node.js</span>
+        <span class="about-skill-tag">MongoDB</span>
+        <span class="about-skill-tag">Canva</span>
+        <span class="about-skill-tag">Microsoft Sway</span>
+        <span class="about-skill-tag">GitHub</span>
+        <span class="about-skill-tag">Flourish</span>
       </div>
     </div>
     <div class="about-right">
       <span class="eyebrow">About</span>
       <h2 class="sec-title">Hello, I am<br/><em>Aima Aqeel</em></h2>
-      <p class="about-p">I'm a Creative Computing graduate with a deep passion for designing and building Android applications that feel as good as they look. My work lives at the intersection of thoughtful UI/UX and clean, functional engineering.</p>
-      <p class="about-p">From wireframes in Figma to production-ready Kotlin in Android Studio, I own the full development lifecycle. I also build full-stack web solutions, create graphic designs in Canva, build ideation and UX presentations in Microsoft Sway, and visualise data using Flourish.</p>
-      <a href="#contact" class="btn-main" style="margin-top:2.5rem;display:inline-flex;">Let's Work Together</a>
+      <div class="about-edu-badge">
+        <span class="edu-icon">&#x1F393;</span>
+        <div>
+          <span class="edu-title">BSc (Hons) Creative Computing &mdash; Final Year</span>
+          <span class="edu-uni">Bath Spa University, RAK</span>
+        </div>
+      </div>
+      <p class="about-p">I'm a final-year Creative Computing student at Bath Spa University, passionate about designing and building Android applications that feel as good as they look. My work lives at the intersection of thoughtful UI/UX and clean, functional engineering.</p>
+      <p class="about-p">From wireframes in Figma to production-ready Kotlin in Android Studio, I build full mobile apps from scratch. I also create responsive websites with HTML, CSS &amp; JavaScript, design graphics in Canva, and visualise data using Flourish &mdash; always focused on making technology simple, useful, and beautiful.</p>
+      <a href="AimaAqeel_CV.docx" download="AimaAqeel_CV.docx" class="btn-main cv-btn" style="margin-top:2rem;display:inline-flex;">
+        &#x1F4C4;&nbsp; View My CV
+      </a>
     </div>
   </div>
 </section>
 
-<!-- ============================================================
-     CONTACT
-============================================================ -->
+<!-- SKILLS & TOOLS — smooth infinite marquee -->
+<section class="skills-section" id="skills">
+  <div class="skills-inner">
+    <div class="skills-header">
+      <span class="eyebrow">My Skills &amp; Tools</span>
+      <h2 class="sec-title" style="text-align:center;"><em>Behind My Designs &amp; Dev</em></h2>
+      <p class="skills-sub">Technologies, tools, and areas I work with as a Creative Computing student.</p>
+    </div>
+
+    <!-- CONTINUOUS TOOL MARQUEE BELT -->
+    <div class="tools-belt-wrap">
+      <!-- Left fade -->
+      <div class="tools-belt-fade tools-belt-fade-left"></div>
+      <!-- Right fade -->
+      <div class="tools-belt-fade tools-belt-fade-right"></div>
+
+      <div class="tools-belt" aria-label="Tools and technologies">
+        <!-- Duplicate the list so the loop is seamless -->
+        <div class="tools-belt-track">
+
+          <!-- SET 1 -->
+          <div class="tool-pill">
+            <div class="tool-pill-icon">
+              <svg viewBox="0 0 38 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 28.5C19 23.25 23.25 19 28.5 19C33.75 19 38 23.25 38 28.5C38 33.75 33.75 38 28.5 38C23.25 38 19 33.75 19 28.5Z" fill="#1ABCFE"/>
+                <path d="M0 47.5C0 42.25 4.25 38 9.5 38H19V47.5C19 52.75 14.75 57 9.5 57C4.25 57 0 52.75 0 47.5Z" fill="#0ACF83"/>
+                <path d="M19 0V19H28.5C33.75 19 38 14.75 38 9.5C38 4.25 33.75 0 28.5 0H19Z" fill="#FF7262"/>
+                <path d="M0 9.5C0 14.75 4.25 19 9.5 19H19V0H9.5C4.25 0 0 4.25 0 9.5Z" fill="#F24E1E"/>
+                <path d="M0 28.5C0 33.75 4.25 38 9.5 38H19V19H9.5C4.25 19 0 23.25 0 28.5Z" fill="#FF7262"/>
+              </svg>
+            </div>
+            <span class="tool-pill-name">Figma</span>
+            <span class="tool-pill-pct">92%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:linear-gradient(135deg,#7F52FF,#E44857);">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="26" font-weight="bold" font-family="Arial">K</text></svg>
+            </div>
+            <span class="tool-pill-name">Kotlin</span>
+            <span class="tool-pill-pct">90%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:#E34F26;">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="14" font-weight="bold" font-family="Arial">HTML5</text></svg>
+            </div>
+            <span class="tool-pill-name">HTML5</span>
+            <span class="tool-pill-pct">90%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:#007ACC;">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="14" font-weight="bold" font-family="Arial">VS</text></svg>
+            </div>
+            <span class="tool-pill-name">VS Code</span>
+            <span class="tool-pill-pct">90%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:#3DDC84;">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="20" font-weight="bold" font-family="Arial">AS</text></svg>
+            </div>
+            <span class="tool-pill-name">Android Studio</span>
+            <span class="tool-pill-pct">88%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:#1572B6;">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="14" font-weight="bold" font-family="Arial">CSS3</text></svg>
+            </div>
+            <span class="tool-pill-name">CSS3</span>
+            <span class="tool-pill-pct">88%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:#7D2AE8;">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="28" font-weight="bold" font-family="Arial">C</text></svg>
+            </div>
+            <span class="tool-pill-name">Canva</span>
+            <span class="tool-pill-pct">88%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:#757575;">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="20" font-weight="bold" font-family="Arial">MD</text></svg>
+            </div>
+            <span class="tool-pill-name">Material Design</span>
+            <span class="tool-pill-pct">85%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:#24292e;">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="14" font-weight="bold" font-family="Arial">GH</text></svg>
+            </div>
+            <span class="tool-pill-name">GitHub</span>
+            <span class="tool-pill-pct">85%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:#f97316;">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="16" font-weight="bold" font-family="Arial">XML</text></svg>
+            </div>
+            <span class="tool-pill-name">XML Layouts</span>
+            <span class="tool-pill-pct">85%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:#003B57;">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="16" font-weight="bold" font-family="Arial">SQL</text></svg>
+            </div>
+            <span class="tool-pill-name">SQLite</span>
+            <span class="tool-pill-pct">82%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:#F7DF1E;">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="#333" font-size="16" font-weight="bold" font-family="Arial">JS</text></svg>
+            </div>
+            <span class="tool-pill-name">JavaScript</span>
+            <span class="tool-pill-pct">80%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:#0078D4;">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="22" font-weight="bold" font-family="Arial">S</text></svg>
+            </div>
+            <span class="tool-pill-name">Microsoft Sway</span>
+            <span class="tool-pill-pct">80%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:#e63946;">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="22" font-weight="bold" font-family="Arial">Fl</text></svg>
+            </div>
+            <span class="tool-pill-name">Flourish</span>
+            <span class="tool-pill-pct">78%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:#339933;">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="13" font-weight="bold" font-family="Arial">Node</text></svg>
+            </div>
+            <span class="tool-pill-name">Node.js</span>
+            <span class="tool-pill-pct">72%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:#47A248;">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="13" font-weight="bold" font-family="Arial">MDB</text></svg>
+            </div>
+            <span class="tool-pill-name">MongoDB</span>
+            <span class="tool-pill-pct">70%</span>
+          </div>
+
+          <!-- SET 2 — exact duplicate for seamless loop -->
+          <div class="tool-pill">
+            <div class="tool-pill-icon">
+              <svg viewBox="0 0 38 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 28.5C19 23.25 23.25 19 28.5 19C33.75 19 38 23.25 38 28.5C38 33.75 33.75 38 28.5 38C23.25 38 19 33.75 19 28.5Z" fill="#1ABCFE"/>
+                <path d="M0 47.5C0 42.25 4.25 38 9.5 38H19V47.5C19 52.75 14.75 57 9.5 57C4.25 57 0 52.75 0 47.5Z" fill="#0ACF83"/>
+                <path d="M19 0V19H28.5C33.75 19 38 14.75 38 9.5C38 4.25 33.75 0 28.5 0H19Z" fill="#FF7262"/>
+                <path d="M0 9.5C0 14.75 4.25 19 9.5 19H19V0H9.5C4.25 0 0 4.25 0 9.5Z" fill="#F24E1E"/>
+                <path d="M0 28.5C0 33.75 4.25 38 9.5 38H19V19H9.5C4.25 19 0 23.25 0 28.5Z" fill="#FF7262"/>
+              </svg>
+            </div>
+            <span class="tool-pill-name">Figma</span>
+            <span class="tool-pill-pct">92%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:linear-gradient(135deg,#7F52FF,#E44857);">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="26" font-weight="bold" font-family="Arial">K</text></svg>
+            </div>
+            <span class="tool-pill-name">Kotlin</span>
+            <span class="tool-pill-pct">90%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:#E34F26;">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="14" font-weight="bold" font-family="Arial">HTML5</text></svg>
+            </div>
+            <span class="tool-pill-name">HTML5</span>
+            <span class="tool-pill-pct">90%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:#007ACC;">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="14" font-weight="bold" font-family="Arial">VS</text></svg>
+            </div>
+            <span class="tool-pill-name">VS Code</span>
+            <span class="tool-pill-pct">90%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:#3DDC84;">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="20" font-weight="bold" font-family="Arial">AS</text></svg>
+            </div>
+            <span class="tool-pill-name">Android Studio</span>
+            <span class="tool-pill-pct">88%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:#1572B6;">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="14" font-weight="bold" font-family="Arial">CSS3</text></svg>
+            </div>
+            <span class="tool-pill-name">CSS3</span>
+            <span class="tool-pill-pct">88%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:#7D2AE8;">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="28" font-weight="bold" font-family="Arial">C</text></svg>
+            </div>
+            <span class="tool-pill-name">Canva</span>
+            <span class="tool-pill-pct">88%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:#757575;">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="20" font-weight="bold" font-family="Arial">MD</text></svg>
+            </div>
+            <span class="tool-pill-name">Material Design</span>
+            <span class="tool-pill-pct">85%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:#24292e;">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="14" font-weight="bold" font-family="Arial">GH</text></svg>
+            </div>
+            <span class="tool-pill-name">GitHub</span>
+            <span class="tool-pill-pct">85%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:#f97316;">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="16" font-weight="bold" font-family="Arial">XML</text></svg>
+            </div>
+            <span class="tool-pill-name">XML Layouts</span>
+            <span class="tool-pill-pct">85%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:#003B57;">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="16" font-weight="bold" font-family="Arial">SQL</text></svg>
+            </div>
+            <span class="tool-pill-name">SQLite</span>
+            <span class="tool-pill-pct">82%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:#F7DF1E;">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="#333" font-size="16" font-weight="bold" font-family="Arial">JS</text></svg>
+            </div>
+            <span class="tool-pill-name">JavaScript</span>
+            <span class="tool-pill-pct">80%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:#0078D4;">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="22" font-weight="bold" font-family="Arial">S</text></svg>
+            </div>
+            <span class="tool-pill-name">Microsoft Sway</span>
+            <span class="tool-pill-pct">80%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:#e63946;">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="22" font-weight="bold" font-family="Arial">Fl</text></svg>
+            </div>
+            <span class="tool-pill-name">Flourish</span>
+            <span class="tool-pill-pct">78%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:#339933;">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="13" font-weight="bold" font-family="Arial">Node</text></svg>
+            </div>
+            <span class="tool-pill-name">Node.js</span>
+            <span class="tool-pill-pct">72%</span>
+          </div>
+
+          <div class="tool-pill">
+            <div class="tool-pill-icon" style="background:#47A248;">
+              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="13" font-weight="bold" font-family="Arial">MDB</text></svg>
+            </div>
+            <span class="tool-pill-name">MongoDB</span>
+            <span class="tool-pill-pct">70%</span>
+          </div>
+
+        </div><!-- /.tools-belt-track -->
+      </div><!-- /.tools-belt -->
+    </div><!-- /.tools-belt-wrap -->
+
+  </div><!-- /.skills-inner -->
+</section>
+
+<!-- CONTACT -->
 <section class="contact" id="contact">
   <div class="contact-wrap">
     <span class="eyebrow">Contact</span>
     <h2 class="contact-heading">Let's Create<br/><em>Something Amazing</em></h2>
     <div class="contact-rows">
-      <a href="mailto:aimaaqeel115@email.com" class="crow">
-        <span class="crow-label">Email</span>
-        <span class="crow-val">aimaaqeel115@email.com <span class="crow-arrow">&#x2197;</span></span>
-      </a>
-      <a href="tel:+91581644141" class="crow">
-        <span class="crow-label">Phone</span>
-        <span class="crow-val">+91 5816 441 41 <span class="crow-arrow">&#x2197;</span></span>
-      </a>
-      <a href="https://www.linkedin.com/in/aima-aqeel/" target="_blank" rel="noopener" class="crow">
-        <span class="crow-label">LinkedIn</span>
-        <span class="crow-val">linkedin.com/aima-aqeel <span class="crow-arrow">&#x2197;</span></span>
-      </a>
-      <a href="https://github.com/aimaaqeel" target="_blank" rel="noopener" class="crow">
-        <span class="crow-label">GitHub</span>
-        <span class="crow-val">github.com/aimaaqeel <span class="crow-arrow">&#x2197;</span></span>
-      </a>
+      <a href="mailto:aimaaqeel115@email.com" class="crow"><span class="crow-label">Email</span><span class="crow-val">aimaaqeel115@email.com <span class="crow-arrow">&#x2197;</span></span></a>
+      <a href="tel:+971581644141" class="crow"><span class="crow-label">Phone</span><span class="crow-val">+971 58 164 4141 <span class="crow-arrow">&#x2197;</span></span></a>
+      <a href="https://www.linkedin.com/in/aima-aqeel/" target="_blank" rel="noopener" class="crow"><span class="crow-label">LinkedIn</span><span class="crow-val">linkedin.com/aimaaqeel <span class="crow-arrow">&#x2197;</span></span></a>
+      <a href="https://github.com/aimaaqeel" target="_blank" rel="noopener" class="crow"><span class="crow-label">GitHub</span><span class="crow-val">github.com/aimaaqeel <span class="crow-arrow">&#x2197;</span></span></a>
     </div>
   </div>
 </section>
 
-<!-- ============================================================
-     FOOTER
-============================================================ -->
+<!-- FOOTER -->
 <footer class="footer">
   <div class="footer-inner">
     <span class="footer-brand">Aima Aqeel</span>
-    <p class="footer-copy">&#169; 2026 Aima Aqeel &mdash; Creative Computing Graduate</p>
+    <p class="footer-copy">&#169; 2026 Aima Aqeel &mdash; BSc Creative Computing Student, Bath Spa University</p>
     <a href="#home" class="back-top">Back to Top &#x2191;</a>
   </div>
 </footer>
 
-<!-- ============================================================
-     JAVASCRIPT
-============================================================ -->
 <script>
-/* ─────────────────────────────────────────────
-   PROJECT DATA
-───────────────────────────────────────────── */
-const PROJECTS = {
-
-  bookshop: {
-    type: 'Mobile Application',
-    year: '2024',
-    title: 'Bookshop App',
-    img: 'bookshop-screenshot.png',
-    desc: 'A fully functional Android bookshop application built with Kotlin. Users can browse thousands of books by genre, search in real-time, manage a shopping cart, add items to a wishlist, and complete purchases — all within a clean Material Design interface featuring a purple accent theme.',
-    tech: ['Kotlin','Android Studio','XML Layouts','SQLite','RecyclerView','Material Design','MVVM Architecture'],
-    features: [
-      'Browse books by Fiction, Non-Fiction, Science and more',
-      'Real-time search with instant results',
-      'Shopping cart with quantity management',
-      'Wishlist / favourites feature',
-      'Detailed book preview pages with cover images',
-      'Order history and purchase tracking',
-      'Bottom navigation bar (Home, Cart, Profile)'
-    ],
-    actions: [
-      { label: '&#x25B6; Watch Walkthrough', url: 'https://drive.google.com/file/d/1ojRa4rNX01zYMHh5y_DPnj-9_D2ZKN_p/view?usp=sharing', primary: true }
-    ]
-  },
-
-  foodhunger: {
-    type: 'Web Application',
-    year: '2024',
-    title: 'FoodHunger Website',
-    img: 'foodhunger-screenshot.png',
-    desc: 'A beautifully designed food recipe sharing website built from scratch using HTML, CSS, and JavaScript. FoodHunger lets users explore thousands of recipes, sign up as community members, and share culinary creations. Features a warm pink/plum palette and fully responsive layout.',
-    tech: ['HTML5','CSS3','JavaScript','Responsive Design','CSS Flexbox & Grid','CSS Animations','Form Validation'],
-    features: [
-      'Discover & Share Delicious Recipes homepage',
-      'Recipe browsing with category filters',
-      'Sign In / Sign Up user flow',
-      'Community food lovers section',
-      'Fully responsive for all screen sizes',
-      'Smooth hover animations and transitions',
-      'Clean navigation with active states'
-    ],
-    actions: [
-      { label: '&#x25B6; Watch on YouTube', url: 'https://youtu.be/pqmvz7NsmGo?si=h4YcMpYxHsfdKJwX', primary: true }
-    ]
-  },
-
-  pet: {
-    type: 'Mobile Application',
-    year: '2024',
-    title: 'Pet Nutrition & Cost Calculator',
-    ytId: 'DQYK8q7UA7o',
-    desc: 'An Android calculator app that helps pet owners track the daily nutritional needs and costs for their pets. Input your pet\'s breed, weight, age, and activity level to receive personalised calorie recommendations and monthly feeding cost estimates.',
-    tech: ['Kotlin','Android Studio','XML Layouts','Material Design','Custom Calculation Logic','SharedPreferences'],
-    features: [
-      'Input: pet breed, weight, age, activity level',
-      'Daily calorie and nutrient recommendations',
-      'Monthly cost estimation per pet',
-      'Multiple pet profile support',
-      'Clean, accessible calculator UI',
-      'Results saved per session'
-    ],
-    actions: [
-      { label: '&#x25B6; Watch on YouTube', url: 'https://youtu.be/DQYK8q7UA7o?si=IsI5X2_yw1E2zdKX', primary: true }
-    ]
-  },
-
-  bakery: {
-    type: 'UI/UX Design · Figma',
-    year: '2024',
-    title: 'Bakery App UI/UX',
-    img: 'https://www.figma.com/file/60KEVhn0dMvUmaY8HEvsYu/thumbnail',
-    desc: 'A complete UI/UX prototype for a bakery e-commerce mobile app designed in Figma. Warm pink and cream palette with illustrated cake hero, product catalogue, cart flow, and checkout — all as a fully interactive Figma prototype.',
-    tech: ['Figma','Prototyping','Auto Layout','Component Library','UI/UX Design','User Flow Mapping'],
-    features: [
-      'Full interactive Figma prototype',
-      'Warm pink and cream brand palette',
-      'Product catalogue with category filters',
-      'Detailed product pages',
-      'Shopping cart and checkout flow',
-      'Reusable component library',
-      'Bottom navigation design'
-    ],
-    actions: [
-      { label: '&#x2B21; View Figma Prototype', url: 'https://www.figma.com/proto/60KEVhn0dMvUmaY8HEvsYu/Untitled?t=DN7XDFrxLqumklKF-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&node-id=251-4554&starting-point-node-id=251%3A4554&show-proto-sidebar=1', primary: true }
-    ]
-  },
-
-  lajoie: {
-    type: 'Web Application · Group Project',
-    year: '2024',
-    title: 'La Joie Website',
-    ytId: 'Q7xoNdQkMT8',
-    desc: 'A collaborative group project — a real estate and lifestyle website for "La Joie" built with HTML, CSS, and JavaScript. Involved team coordination, Git collaboration, and merging individual contributions into a cohesive professional web experience.',
-    tech: ['HTML5','CSS3','JavaScript','Responsive Design','Git Collaboration','CSS Grid & Flexbox'],
-    features: [
-      'Multi-page real estate website',
-      'Featured Listings section',
-      'Interactive image galleries',
-      'Team collaboration via Git',
-      'Animated hero sections',
-      'Contact forms integration',
-      'Community and Properties navigation'
-    ],
-    actions: [
-      { label: '&#x25B6; Watch on YouTube', url: 'https://youtu.be/Q7xoNdQkMT8', primary: true }
-    ]
-  },
-
-  sway: {
-    type: 'Ideation & UX · Microsoft Sway',
-    year: '2024',
-    title: 'Ideation & UX Designs',
-    img: 'sway-project.png',
-    desc: 'An interactive ideation and UX presentation created using Microsoft Sway. This project explores UI/UX thinking, creative ideation processes, and design concepts through a visually rich, scroll-based digital story combining imagery, typography, and multimedia into an engaging narrative.',
-    tech: ['Microsoft Sway','UX Research','Ideation','Digital Storytelling','Visual Layout','Multimedia Content'],
-    features: [
-      'Interactive scroll-based Sway presentation',
-      'UX ideation and design thinking process',
-      'Creative visual storytelling with images',
-      'Mixed-media layout (text, photos, collages)',
-      'Responsive across all devices',
-      'Shareable via public Microsoft Sway link',
-      'Engaging narrative and concept flow'
-    ],
-    actions: [
-      { label: '&#x2B21; View Sway Presentation', url: 'https://sway.cloud.microsoft/mQBx2h2AZgFq6Nc9?ref=Link', primary: true }
-    ]
-  },
-
-  uiux1: {
-    type: 'UI/UX Design · Figma',
-    year: '2024',
-    title: 'Website UI/UX Design I',
-    img: 'https://www.figma.com/file/XUouCz8Xrfmj3XmcEpL60f/thumbnail',
-    desc: 'A modern website UI/UX design in Figma with clean layout principles, strong typographic hierarchy, and a professional blue-toned palette. Includes a full homepage, feature sections, and interactive prototype.',
-    tech: ['Figma','UI Design','Prototyping','Auto Layout','Typography Design','Colour Theory'],
-    features: [
-      'Full homepage and inner page designs',
-      'Strong typographic hierarchy',
-      'Professional blue colour system',
-      'Responsive layout considerations',
-      'Interactive prototype with navigation',
-      'Reusable design components'
-    ],
-    actions: [
-      { label: '&#x2B21; View in Figma', url: 'https://www.figma.com/design/XUouCz8Xrfmj3XmcEpL60f/Untitled?node-id=0-1&p=f&t=DN7XDFrxLqumklKF-0', primary: true }
-    ]
-  },
-
-  uiux2: {
-    type: 'UI/UX Design · Figma',
-    year: '2024',
-    title: 'Website UI/UX Design II',
-    img: 'https://www.figma.com/file/L31NDWnINS4HdhySivVw7b/thumbnail',
-    desc: 'A second website UI/UX concept in Figma with a violet/purple palette, bold hero sections, floating card elements, and stat counters creating visual depth and modern energy.',
-    tech: ['Figma','UI Design','Prototyping','Auto Layout','Component Design','Visual Hierarchy'],
-    features: [
-      'Bold violet and purple identity',
-      'Dynamic hero section',
-      'Floating card UI elements',
-      'Stat counter sections',
-      'Interactive Figma prototype',
-      'Layered shadow systems'
-    ],
-    actions: [
-      { label: '&#x2B21; View in Figma', url: 'https://www.figma.com/design/L31NDWnINS4HdhySivVw7b/Untitled?node-id=0-1&p=f&t=DN7XDFrxLqumklKF-0', primary: true }
-    ]
-  },
-
-  flourish: {
-    type: 'Data Visualisation · Flourish',
-    year: '2024',
-    title: 'Data Analysis Story',
-    img: 'https://public.flourish.studio/story/3135825/thumbnail',
-    desc: 'An interactive data story built using Flourish Studio, presenting analysis through animated charts, infographics, and scrollytelling. Demonstrates the ability to communicate complex data insights through a compelling visual narrative.',
-    tech: ['Flourish Studio','Data Analysis','Data Storytelling','Chart Design','Infographics','Visual Narrative'],
-    features: [
-      'Interactive animated charts and graphs',
-      'Scrollytelling narrative structure',
-      'Multiple chart types (bar, line, pie)',
-      'Data-driven visual storytelling',
-      'Responsive embedded visualisations',
-      'Clean accessible data presentation'
-    ],
-    actions: [
-      { label: '&#x1F4CA; View Data Story', url: 'https://public.flourish.studio/story/3135825/', primary: true }
-    ]
-  },
-
-  /* ── CANVA DESIGNS ── */
-  canva_bubbles: {
-    type: 'Graphic Design · Canva',
-    year: '2023',
-    title: 'Bubbles Design',
-    img: 'canva-bubbles.png',
-    desc: 'A playful bubble scatter composition using bold red and deep navy/blue circles of varying sizes. The contrasting two-colour palette and organic dot placement create a sense of movement and energy — inspired by data visualisation bubble charts.',
-    tech: ['Canva','Graphic Design','Colour Contrast','Scatter Composition','Visual Rhythm'],
-    features: [
-      'Bold red and navy blue two-colour palette',
-      'Organic scatter placement of circles',
-      'Varying circle sizes for visual hierarchy',
-      'Sense of movement and randomness',
-      'High contrast dynamic composition',
-      'Data visualisation inspired aesthetic'
-    ],
-    actions: [
-      { label: '&#x2B21; Open in Canva', url: 'https://www.canva.com/design/DAF1VsNQQv4/w5lf_ziiZeDR_Yos0dAFPA/edit', primary: true }
-    ]
-  },
-
-  canva_squares: {
-    type: 'Graphic Design · Canva',
-    year: '2023',
-    title: 'Square Blocks Design',
-    img: 'canva-squares.png',
-    desc: 'An overlapping squares composition in warm earth tones — terracotta, sienna, amber, and blush — on a cream background. The overlapping rounded rectangles create a layered, modern abstract artwork with a warm, organic feel.',
-    tech: ['Canva','Abstract Design','Colour Blocking','Warm Palette','Geometric Composition'],
-    features: [
-      'Warm earth tone colour palette',
-      'Overlapping rounded rectangle composition',
-      'Terracotta, sienna, amber, and blush tones',
-      'Cream/off-white background',
-      'Layered depth through overlapping',
-      'Modern abstract aesthetic'
-    ],
-    actions: [
-      { label: '&#x2B21; Open in Canva', url: 'https://www.canva.com/design/DAF3T9uH3fI/eCwnRpqNPgCcHj-ramQ-gg/edit', primary: true }
-    ]
-  },
-
-  canva_lines: {
-    type: 'Graphic Design · Canva',
-    year: '2023',
-    title: 'Lines Pattern Design',
-    img: 'canva-lines.png',
-    desc: 'A typographic line art design on a gradient grey background forming the letter "W" through parallel diagonal and vertical strokes. Plays with negative space, line weight, and the tension between structure and flow.',
-    tech: ['Canva','Typography Art','Line Design','Gradient Background','Negative Space'],
-    features: [
-      'Letter "W" constructed from parallel line strokes',
-      'Gradient grey background (light to dark)',
-      'Diagonal and vertical stroke contrast',
-      'Elegant use of negative space',
-      'Typographic art composition',
-      'Minimalist monochrome aesthetic'
-    ],
-    actions: [
-      { label: '&#x2B21; Open in Canva', url: 'https://www.canva.com/design/DAF4SbA7JMo/vEWtEW4o2qmC8YXDdUB24Q/edit', primary: true }
-    ]
-  }
-
+/* PROJECT DATA */
+var PROJECTS={
+  bookshop:{type:'Mobile Application',year:'2024',title:'Bookshop App',img:'bookshop-screenshot.png',desc:'A fully functional Android bookshop application built with Kotlin. Users can browse thousands of books by genre, search in real-time, manage a shopping cart, add items to a wishlist, and complete purchases — all within a clean Material Design interface featuring a purple accent theme.',tech:['Kotlin','Android Studio','XML Layouts','SQLite','RecyclerView','Material Design','MVVM Architecture'],features:['Browse books by Fiction, Non-Fiction, Science and more','Real-time search with instant results','Shopping cart with quantity management','Wishlist / favourites feature','Detailed book preview pages with cover images','Order history and purchase tracking','Bottom navigation bar (Home, Cart, Profile)'],actions:[{label:'&#x25B6; Watch Walkthrough',url:'https://drive.google.com/file/d/1ojRa4rNX01zYMHh5y_DPnj-9_D2ZKN_p/view?usp=sharing',primary:true}]},
+  foodhunger:{type:'Web Application',year:'2024',title:'FoodHunger Website',img:'foodhunger-screenshot.png',desc:'A beautifully designed food recipe sharing website built from scratch using HTML, CSS, and JavaScript. Warm pink/plum palette with a fully responsive layout.',tech:['HTML5','CSS3','JavaScript','Responsive Design','CSS Flexbox & Grid','CSS Animations','Form Validation'],features:['Discover & Share Delicious Recipes homepage','Recipe browsing with category filters','Sign In / Sign Up user flow','Community food lovers section','Fully responsive for all screen sizes','Smooth hover animations and transitions','Clean navigation with active states'],actions:[{label:'&#x25B6; Watch on YouTube',url:'https://youtu.be/pqmvz7NsmGo?si=h4YcMpYxHsfdKJwX',primary:true}]},
+  pet:{type:'Mobile Application',year:'2024',title:'Pet Nutrition & Cost Calculator',ytId:'DQYK8q7UA7o',desc:'An Android calculator app that helps pet owners track daily nutritional needs and costs for their pets based on breed, weight, age, and activity level.',tech:['Kotlin','Android Studio','XML Layouts','Material Design','Custom Calculation Logic','SharedPreferences'],features:['Input: pet breed, weight, age, activity level','Daily calorie and nutrient recommendations','Monthly cost estimation per pet','Multiple pet profile support','Clean, accessible calculator UI','Results saved per session'],actions:[{label:'&#x25B6; Watch on YouTube',url:'https://youtu.be/DQYK8q7UA7o?si=IsI5X2_yw1E2zdKX',primary:true}]},
+  bakery:{type:'UI/UX Design · Figma',year:'2024',title:'Bakery App UI/UX',img:'https://www.figma.com/file/60KEVhn0dMvUmaY8HEvsYu/thumbnail',desc:'A complete UI/UX prototype for a bakery e-commerce mobile app in Figma. Warm pink and cream palette with product catalogue, cart flow, and checkout.',tech:['Figma','Prototyping','Auto Layout','Component Library','UI/UX Design','User Flow Mapping'],features:['Full interactive Figma prototype','Warm pink and cream brand palette','Product catalogue with category filters','Detailed product pages','Shopping cart and checkout flow','Reusable component library','Bottom navigation design'],actions:[{label:'&#x2B21; View Figma Prototype',url:'https://www.figma.com/proto/60KEVhn0dMvUmaY8HEvsYu/Untitled?t=DN7XDFrxLqumklKF-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&node-id=251-4554&starting-point-node-id=251%3A4554&show-proto-sidebar=1',primary:true}]},
+  lajoie:{type:'Web Application · Group Project',year:'2024',title:'La Joie Website',ytId:'Q7xoNdQkMT8',desc:'A collaborative group project — a real estate and lifestyle website built with HTML, CSS, and JavaScript using Git collaboration.',tech:['HTML5','CSS3','JavaScript','Responsive Design','Git Collaboration','CSS Grid & Flexbox'],features:['Multi-page real estate website','Featured Listings section','Interactive image galleries','Team collaboration via Git','Animated hero sections','Contact forms integration','Community and Properties navigation'],actions:[{label:'&#x25B6; Watch on YouTube',url:'https://youtu.be/Q7xoNdQkMT8',primary:true}]},
+  sway:{type:'Ideation & UX · Microsoft Sway',year:'2024',title:'Ideation & UX Designs',img:'sway-project.png',desc:'An interactive ideation and UX presentation in Microsoft Sway combining imagery, typography, and multimedia into a scroll-based digital story.',tech:['Microsoft Sway','UX Research','Ideation','Digital Storytelling','Visual Layout','Multimedia Content'],features:['Interactive scroll-based Sway presentation','UX ideation and design thinking process','Creative visual storytelling with images','Mixed-media layout (text, photos, collages)','Responsive across all devices','Shareable via public Microsoft Sway link','Engaging narrative and concept flow'],actions:[{label:'&#x2B21; View Sway Presentation',url:'https://sway.cloud.microsoft/mQBx2h2AZgFq6Nc9?ref=Link',primary:true}]},
+  uiux1:{type:'UI/UX Design · Figma',year:'2024',title:'Website UI/UX Design I',img:'https://www.figma.com/file/XUouCz8Xrfmj3XmcEpL60f/thumbnail',desc:'A modern website UI/UX design in Figma with clean layout principles, strong typographic hierarchy, and a professional blue-toned palette.',tech:['Figma','UI Design','Prototyping','Auto Layout','Typography Design','Colour Theory'],features:['Full homepage and inner page designs','Strong typographic hierarchy','Professional blue colour system','Responsive layout considerations','Interactive prototype with navigation','Reusable design components'],actions:[{label:'&#x2B21; View in Figma',url:'https://www.figma.com/design/XUouCz8Xrfmj3XmcEpL60f/Untitled?node-id=0-1&p=f&t=DN7XDFrxLqumklKF-0',primary:true}]},
+  uiux2:{type:'UI/UX Design · Figma',year:'2024',title:'Website UI/UX Design II',img:'https://www.figma.com/file/L31NDWnINS4HdhySivVw7b/thumbnail',desc:'A second website UI/UX concept in Figma with a violet/purple palette, bold hero sections, floating card elements, and stat counters.',tech:['Figma','UI Design','Prototyping','Auto Layout','Component Design','Visual Hierarchy'],features:['Bold violet and purple identity','Dynamic hero section','Floating card UI elements','Stat counter sections','Interactive Figma prototype','Layered shadow systems'],actions:[{label:'&#x2B21; View in Figma',url:'https://www.figma.com/design/L31NDWnINS4HdhySivVw7b/Untitled?node-id=0-1&p=f&t=DN7XDFrxLqumklKF-0',primary:true}]},
+  flourish:{type:'Data Visualisation · Flourish',year:'2024',title:'Data Analysis Story',img:'https://public.flourish.studio/story/3135825/thumbnail',desc:'An interactive data story in Flourish Studio with animated charts, infographics, and scrollytelling narrative structure.',tech:['Flourish Studio','Data Analysis','Data Storytelling','Chart Design','Infographics','Visual Narrative'],features:['Interactive animated charts and graphs','Scrollytelling narrative structure','Multiple chart types (bar, line, pie)','Data-driven visual storytelling','Responsive embedded visualisations','Clean accessible data presentation'],actions:[{label:'&#x1F4CA; View Data Story',url:'https://public.flourish.studio/story/3135825/',primary:true}]},
+  canva_bubbles:{type:'Graphic Design · Canva',year:'2023',title:'Bubbles Design',img:'canva-bubbles.png',desc:'A playful bubble scatter composition using bold red and deep navy/blue circles of varying sizes — inspired by data visualisation bubble charts.',tech:['Canva','Graphic Design','Colour Contrast','Scatter Composition','Visual Rhythm'],features:['Bold red and navy blue two-colour palette','Organic scatter placement of circles','Varying circle sizes for visual hierarchy','Sense of movement and randomness','High contrast dynamic composition','Data visualisation inspired aesthetic'],actions:[{label:'&#x2B21; Open in Canva',url:'https://www.canva.com/design/DAF1VsNQQv4/w5lf_ziiZeDR_Yos0dAFPA/edit',primary:true}]},
+  canva_squares:{type:'Graphic Design · Canva',year:'2023',title:'Square Blocks Design',img:'canva-squares.png',desc:'Overlapping squares in warm earth tones — terracotta, sienna, amber, and blush — on a cream background creating layered modern abstract artwork.',tech:['Canva','Abstract Design','Colour Blocking','Warm Palette','Geometric Composition'],features:['Warm earth tone colour palette','Overlapping rounded rectangle composition','Terracotta, sienna, amber, and blush tones','Cream/off-white background','Layered depth through overlapping','Modern abstract aesthetic'],actions:[{label:'&#x2B21; Open in Canva',url:'https://www.canva.com/design/DAF3T9uH3fI/eCwnRpqNPgCcHj-ramQ-gg/edit',primary:true}]},
+  canva_lines:{type:'Graphic Design · Canva',year:'2023',title:'Lines Pattern Design',img:'canva-lines.png',desc:'Typographic line art forming the letter "W" through parallel diagonal and vertical strokes on a gradient grey background.',tech:['Canva','Typography Art','Line Design','Gradient Background','Negative Space'],features:['Letter "W" constructed from parallel line strokes','Gradient grey background (light to dark)','Diagonal and vertical stroke contrast','Elegant use of negative space','Typographic art composition','Minimalist monochrome aesthetic'],actions:[{label:'&#x2B21; Open in Canva',url:'https://www.canva.com/design/DAF4SbA7JMo/vEWtEW4o2qmC8YXDdUB24Q/edit',primary:true}]}
 };
 
-/* ─────────────────────────────────────────────
-   MODAL
-───────────────────────────────────────────── */
-const backdrop = document.getElementById('modalBackdrop');
-const modal    = document.getElementById('modal');
-const btnClose = document.getElementById('modalClose');
+/* MODAL */
+var backdrop=document.getElementById('modalBackdrop'),modal=document.getElementById('modal'),btnClose=document.getElementById('modalClose');
+var portraitImgs=['bookshop-screenshot.png','sway-project.png','canva-bubbles.png','canva-squares.png','canva-lines.png'];
+function openModal(key){var p=PROJECTS[key];if(!p)return;var m=document.getElementById('modalMedia');m.style.display='';m.className='modal-media';if(p.ytId){m.innerHTML='<iframe src="https://www.youtube.com/embed/'+p.ytId+'?rel=0&modestbranding=1" title="'+p.title+'" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe>';}else if(p.img){if(portraitImgs.indexOf(p.img)!==-1)m.className='modal-media modal-media-contain';m.innerHTML='<img src="'+p.img+'" alt="'+p.title+'" onerror="this.parentElement.style.display=\'none\'">';}else{m.innerHTML='';m.style.display='none';}document.getElementById('modalType').textContent=p.type;document.getElementById('modalYear').textContent=p.year;document.getElementById('modalTitle').textContent=p.title;document.getElementById('modalDesc').textContent=p.desc;document.getElementById('modalTech').innerHTML=p.tech.map(function(t){return'<span class="tech-tag">'+t+'</span>';}).join('');document.getElementById('modalFeatures').innerHTML=p.features.map(function(f){return'<li><span class="feat-bullet">&#x2756;</span>'+f+'</li>';}).join('');document.getElementById('modalActions').innerHTML=p.actions.map(function(a){return'<a href="'+a.url+'" target="_blank" rel="noopener" class="modal-btn '+(a.primary?'modal-btn-primary':'modal-btn-sec')+'">'+a.label+'</a>';}).join('');backdrop.classList.add('open');document.body.classList.add('no-scroll');setTimeout(function(){modal.classList.add('open');},10);}
+function closeModal(){modal.classList.remove('open');backdrop.classList.remove('open');document.body.classList.remove('no-scroll');var iframe=document.querySelector('#modalMedia iframe');if(iframe)iframe.src=iframe.src;}
+btnClose.addEventListener('click',closeModal);
+backdrop.addEventListener('click',function(e){if(e.target===backdrop)closeModal();});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')closeModal();});
+document.querySelectorAll('[data-project]').forEach(function(card){card.addEventListener('click',function(){openModal(card.dataset.project);});});
 
-const portraitImgs = [
-  'bookshop-screenshot.png',
-  'sway-project.png',
-  'canva-bubbles.png',
-  'canva-squares.png',
-  'canva-lines.png'
-];
+/* CURSOR */
+var cur=document.getElementById('cursor'),dot=document.getElementById('cursorDot'),mx=0,my=0,cx=0,cy=0;
+document.addEventListener('mousemove',function(e){mx=e.clientX;my=e.clientY;});
+(function anim(){cx+=(mx-cx)*0.12;cy+=(my-cy)*0.12;cur.style.transform='translate('+(cx-18)+'px,'+(cy-18)+'px)';dot.style.transform='translate('+(mx-3)+'px,'+(my-3)+'px)';requestAnimationFrame(anim);})();
+document.querySelectorAll('a,button,[data-project]').forEach(function(el){el.addEventListener('mouseenter',function(){cur.classList.add('big');});el.addEventListener('mouseleave',function(){cur.classList.remove('big');});});
 
-function openModal(key) {
-  const p = PROJECTS[key];
-  if (!p) return;
+/* NAV */
+var navEl=document.getElementById('nav');
+window.addEventListener('scroll',function(){navEl.classList.toggle('solid',window.scrollY>60);var c='home';['home','works','canva','about','skills','contact'].forEach(function(id){var s=document.getElementById(id);if(s&&window.scrollY>=s.offsetTop-130)c=id;});document.querySelectorAll('.nav-link').forEach(function(l){l.classList.toggle('active',l.getAttribute('href')==='#'+c);});});
 
-  const mediaEl = document.getElementById('modalMedia');
-  mediaEl.style.display = '';
-  mediaEl.className = 'modal-media';
+/* BURGER */
+var burger=document.getElementById('burger'),mob=document.getElementById('mobMenu');
+burger.addEventListener('click',function(){burger.classList.toggle('open');mob.classList.toggle('open');document.body.classList.toggle('no-scroll');});
+document.querySelectorAll('.mob-link').forEach(function(l){l.addEventListener('click',function(){burger.classList.remove('open');mob.classList.remove('open');document.body.classList.remove('no-scroll');});});
 
-  if (p.ytId) {
-    mediaEl.innerHTML = '<iframe src="https://www.youtube.com/embed/' + p.ytId + '?rel=0&modestbranding=1" title="' + p.title + '" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe>';
-  } else if (p.img) {
-    if (portraitImgs.includes(p.img)) {
-      mediaEl.className = 'modal-media modal-media-contain';
-    }
-    mediaEl.innerHTML = '<img src="' + p.img + '" alt="' + p.title + '" onerror="this.parentElement.style.display=\'none\'"/>';
-  } else {
-    mediaEl.innerHTML = '';
-    mediaEl.style.display = 'none';
-  }
+/* SCROLL REVEAL */
+var revealObs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');revealObs.unobserve(e.target);}});},{threshold:0.08});
+document.querySelectorAll('.reveal').forEach(function(el){revealObs.observe(el);});
 
-  document.getElementById('modalType').textContent  = p.type;
-  document.getElementById('modalYear').textContent  = p.year;
-  document.getElementById('modalTitle').textContent = p.title;
-  document.getElementById('modalDesc').textContent  = p.desc;
+/* HERO */
+window.addEventListener('load',function(){document.querySelectorAll('.h-inner').forEach(function(el){el.classList.add('go');});var i=document.querySelector('.hero-intro'),b=document.querySelector('.hero-btns'),p=document.querySelector('.hero-photo-wrap');if(i)i.classList.add('go');if(b)b.classList.add('go');if(p)p.classList.add('go');});
 
-  document.getElementById('modalTech').innerHTML =
-    p.tech.map(function(t){ return '<span class="tech-tag">' + t + '</span>'; }).join('');
-
-  document.getElementById('modalFeatures').innerHTML =
-    p.features.map(function(f){ return '<li><span class="feat-bullet">&#x2756;</span>' + f + '</li>'; }).join('');
-
-  document.getElementById('modalActions').innerHTML =
-    p.actions.map(function(a){
-      return '<a href="' + a.url + '" target="_blank" rel="noopener" class="modal-btn ' + (a.primary ? 'modal-btn-primary' : 'modal-btn-sec') + '">' + a.label + '</a>';
-    }).join('');
-
-  backdrop.classList.add('open');
-  document.body.classList.add('no-scroll');
-  setTimeout(function(){ modal.classList.add('open'); }, 10);
+/* TOOL BELT — pause on hover */
+var belt=document.querySelector('.tools-belt-track');
+if(belt){
+  belt.addEventListener('mouseenter',function(){belt.style.animationPlayState='paused';});
+  belt.addEventListener('mouseleave',function(){belt.style.animationPlayState='running';});
 }
-
-function closeModal() {
-  modal.classList.remove('open');
-  backdrop.classList.remove('open');
-  document.body.classList.remove('no-scroll');
-  var iframe = document.querySelector('#modalMedia iframe');
-  if (iframe) { iframe.src = iframe.src; }
-}
-
-btnClose.addEventListener('click', closeModal);
-backdrop.addEventListener('click', function(e){ if (e.target === backdrop) closeModal(); });
-document.addEventListener('keydown', function(e){ if (e.key === 'Escape') closeModal(); });
-
-document.querySelectorAll('[data-project]').forEach(function(card){
-  card.addEventListener('click', function(){ openModal(card.dataset.project); });
-});
-
-/* ─────────────────────────────────────────────
-   CUSTOM CURSOR
-───────────────────────────────────────────── */
-var cur = document.getElementById('cursor');
-var dot = document.getElementById('cursorDot');
-var mx=0, my=0, cx=0, cy=0;
-
-document.addEventListener('mousemove', function(e){ mx = e.clientX; my = e.clientY; });
-
-(function animCursor(){
-  cx += (mx - cx) * 0.12;
-  cy += (my - cy) * 0.12;
-  cur.style.transform = 'translate(' + (cx-18) + 'px,' + (cy-18) + 'px)';
-  dot.style.transform = 'translate(' + (mx-3)  + 'px,' + (my-3)  + 'px)';
-  requestAnimationFrame(animCursor);
-})();
-
-document.querySelectorAll('a, button, [data-project]').forEach(function(el){
-  el.addEventListener('mouseenter', function(){ cur.classList.add('big'); });
-  el.addEventListener('mouseleave', function(){ cur.classList.remove('big'); });
-});
-
-/* ─────────────────────────────────────────────
-   STICKY NAV + ACTIVE LINK
-───────────────────────────────────────────── */
-var navEl = document.getElementById('nav');
-
-window.addEventListener('scroll', function(){
-  navEl.classList.toggle('solid', window.scrollY > 60);
-  var c = 'home';
-  ['home','works','canva','about','contact'].forEach(function(id){
-    var s = document.getElementById(id);
-    if (s && window.scrollY >= s.offsetTop - 130) c = id;
-  });
-  document.querySelectorAll('.nav-link').forEach(function(l){
-    l.classList.toggle('active', l.getAttribute('href') === '#' + c);
-  });
-});
-
-/* ─────────────────────────────────────────────
-   HAMBURGER MENU
-───────────────────────────────────────────── */
-var burger = document.getElementById('burger');
-var mob    = document.getElementById('mobMenu');
-
-burger.addEventListener('click', function(){
-  burger.classList.toggle('open');
-  mob.classList.toggle('open');
-  document.body.classList.toggle('no-scroll');
-});
-
-document.querySelectorAll('.mob-link').forEach(function(l){
-  l.addEventListener('click', function(){
-    burger.classList.remove('open');
-    mob.classList.remove('open');
-    document.body.classList.remove('no-scroll');
-  });
-});
-
-/* ─────────────────────────────────────────────
-   SCROLL REVEAL
-───────────────────────────────────────────── */
-var revealObserver = new IntersectionObserver(function(entries){
-  entries.forEach(function(e){
-    if (e.isIntersecting) {
-      e.target.classList.add('in');
-      revealObserver.unobserve(e.target);
-    }
-  });
-}, { threshold: 0.08 });
-
-document.querySelectorAll('.reveal').forEach(function(el){
-  revealObserver.observe(el);
-});
-
-/* ─────────────────────────────────────────────
-   HERO ENTRANCE ANIMATION
-───────────────────────────────────────────── */
-window.addEventListener('load', function(){
-  document.querySelectorAll('.h-inner').forEach(function(el){ el.classList.add('go'); });
-  var intro = document.querySelector('.hero-intro');
-  var btns  = document.querySelector('.hero-btns');
-  var photo = document.querySelector('.hero-photo-wrap');
-  if (intro) intro.classList.add('go');
-  if (btns)  btns.classList.add('go');
-  if (photo) photo.classList.add('go');
-});
 </script>
 </body>
 </html>
